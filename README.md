@@ -41,7 +41,7 @@ We strongly recommend you to schedule it every day.
 1. Navigate in the Google Ads account, and go in the Account setting section.
 2. There you’ll find a “Tracking” setting.
 3. Here you can find the Final URL suffix field.  Set it to: 
-utm_source=google&utm_source_platform=GoogleAds&utm_medium=cpc&utm_campaign={_campaignname}&utm_campaignid={campaignid}
+utm_source=google&utm_source_platform=Google+Ads&utm_medium=cpc&utm_campaign={_campaignname}&utm_campaignid={campaignid}
 
 **If you are using a tracking tool**, check on your account at every level, where the “final url suffix” field is already filled out. We recommend using [Google Ads Editor](https://support.google.com/google-ads/editor/answer/2484521?hl=en) to check this quickly. 
 
@@ -50,12 +50,12 @@ If some final url suffix is filled, just [download a bulksheet](https://support.
 If they are not using the final URL suffix yet, make sure you set-up a final url suffix at the account level. 
 
 In your bulksheet, add the UTM parameters after your existing final URL suffix:
-*"&utm_source=google&utm_source_platform=GoogleAds&utm_medium=cpc&utm_campaign={_campaignname}&utm_campaignid={campaignid}"*
+*"&utm_source=google&utm_source_platform=Google+Ads&utm_medium=cpc&utm_campaign={_campaignname}&utm_campaignid={campaignid}"*
 
 Example: 
 - Final URL suffix is already set to “a=1&b=2”.
 - Just add after the utm parameters for Google Analytics:
-- a=1&b=2*&utm_source=google&utm_source_platform=GoogleAds&utm_medium=cpc&utm_campaign={_campaignname}&utm_campaignid={campaignid}*
+- a=1&b=2*&utm_source=google&utm_source_platform=Google+Ads&utm_medium=cpc&utm_campaign={_campaignname}&utm_campaignid={campaignid}*
 
 **Note that we recommend adding the URL suffix at the highest possible level.**
 
