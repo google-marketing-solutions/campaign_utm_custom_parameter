@@ -26,7 +26,8 @@ We recommend using this script which automatically sets a custom parameter at ca
 3. Click Scripts.
 4. Click the plus button to create a new script.
 5. Name it as you prefer (we recommend a name that you can easily identify as the script goal)
-6. Copy paste and the code from the file main.js
+6. Delete the content of the script.
+7. Copy paste and the code from the file main.js
 
 Save the script, authorize it and then run it.
 
