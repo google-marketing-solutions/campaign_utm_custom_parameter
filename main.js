@@ -22,7 +22,7 @@ const ADD_TO_CAMPAIGN_FINAL_URL_SUFFIX = false;
 
 //////////////////////////////////// END CUSTOMIZABLE PARAMETERS ////////////////////////////////////////////////////////////
 
-const FINAL_URL_SUFFIX_TRACKER = `utm_source=google&utm_source_platform=GoogleAds&utm_medium=cpc&utm_campaign={_${CAMPAIGN_NAME_CUSTOM_PARAMETER}}&utm_campaignid={campaignid}`;
+const FINAL_URL_SUFFIX_TRACKER = `utm_source=google&utm_source_platform=Google+Ads&utm_medium=cpc&utm_campaign={_${CAMPAIGN_NAME_CUSTOM_PARAMETER}}&utm_campaignid={campaignid}`;
 const CUSTOM_PARAMETER_NAME_CHECK = new RegExp("^[a-zA-Z0-9]{1,16}$");
 
 /**
@@ -181,5 +181,5 @@ function replaceInvalidSymbolsInCampaignName_(campaignName){
   if(newCampaignName.length > 250){
     newCampaignName= newCampaignName.substr(0, 250);
   }
-  return newCampaignName.replace(/[^a-zA-Z0-9|;_\/^(!]/g, "_");
+  return newCampaignName.replace(/[^a-zA-Z0-9|;_\/^(!]/g, "+");
 }
