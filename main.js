@@ -181,5 +181,5 @@ function replaceInvalidSymbolsInCampaignName_(campaignName){
   if(newCampaignName.length > 250){
     newCampaignName= newCampaignName.substr(0, 250);
   }
-  return newCampaignName.replace(/[^a-zA-Z0-9|;_\/^(!]/g, "+");
+  return newCampaignName.replace(/[^a-zA-Z0-9|;_\/^(!]/g, "_");
 }
