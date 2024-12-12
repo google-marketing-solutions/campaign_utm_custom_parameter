@@ -15,6 +15,8 @@ While implementing manual tagging using UTMs, we encourage you to maintain consi
 The following script helps to automatically sets a custom parameter at campaign level with the value equals to the name of each campaign.
 It allows client to ease their tracking in GA4 with utm. Specifically: utm-campaign
 
+**Attention: this script works only for Search, Shopping and Performance Max campaigns.**
+
 ## Setup
 
 ### Step 1: Add a new custom parameter at campaign level
